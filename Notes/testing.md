@@ -13,4 +13,18 @@ You should test the purpose of that particular method:
 * Does the method return the correct value?
 * Does it causes a particular side effect?
 
-*N.B. You shouldn't unit test an API call, they aren't necessary and can slow down your tests - you can use integration tests to check that the API is doing its job. You can check that the API is being passed the correct parameters, that the returning value is the exected data type, that the error function is behaving correctly etc. 
+*N.B. You shouldn't unit test an API call, they aren't necessary and can slow down your tests - you can use integration tests to check that the API is doing its job. You can check that the API is being passed the correct parameters, that the returning value is the exected data type, that the error function is behaving correctly etc.*
+
+##Ruby Unit Testing: Assertions
+ def a_meaningful_test
+    assert(test, optional_failure_msg) 
+ end
+ Assert tests if *test* is true, if it is false the test will fail - brackets are not compulsory
+ 
+ def
+    assert test, "optional_failure_msg"
+ end
+
+ Can be a string or a proc (A Proc object is a block of code that has been bound to a set of local variables).
+
+ If nothing is supplied, a default message will be used.
