@@ -1,4 +1,8 @@
-= Neo Ruby Koans
+= Brushing up on Ruby With Ruby Koans
+
+I'll be working through the tests and hopefully sharing some notes that will make sense to me and be helpful in the future. I have worked through the Ruby codeacademy introduction course and have had a go at Ruby Katas on CodeWars. Please do let me know if there is anything that can be improved - any feedback is more than welcome!
+
+== Neo Ruby Koans
 
 The Ruby Koans walk you along the path to enlightenment in order to learn Ruby.
 The goal is to learn the Ruby language, syntax, structure, and some common
