@@ -18,7 +18,6 @@ You can also add a value to a specific index, if there is already an element at 
 
 array[index] = "value"
 
-
 ##Slicing arrays
 You can slice an array by setting a starting index, and stating how many elements to include. This creates a new array with the slice of selected elements, or returns nil if nothing is found.
 
